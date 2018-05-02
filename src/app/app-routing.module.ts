@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'films', component: FilmsComponent },
   { path: 'films/:id', component: FilmDetailsComponent },
   { path: 'planets', component: PlanetsComponent },
-  { path: 'peoples', component: PeoplesComponent },
+  { path: 'people', component: PeoplesComponent },
   { path: 'species', component: SpeciesComponent },
   { path: 'starships', component: StarshipsComponent },
   { path: 'vehicles', component: VehiclesComponent }
