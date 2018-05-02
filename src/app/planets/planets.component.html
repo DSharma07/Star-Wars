@@ -1,0 +1,15 @@
+<div class="container">
+    <div style="margin-top: 5%">
+        <div class="col-sm-3 col-md-4" *ngFor="let planet of planets.results" >
+          <div class="thumbnail" highlight>
+            <div class="caption">
+              <h3>{{planet.name}}</h3>
+              <h5>Population: {{planet.population}}</h5>
+              <h5>Rotation Period: {{planet.rotation_period}}</h5>         
+              <h5>Diameter: {{planet.diameter}}</h5>         
+              <h5>Climate: {{planet.climate}}</h5>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

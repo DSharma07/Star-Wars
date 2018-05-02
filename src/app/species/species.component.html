@@ -1,0 +1,15 @@
+<div class="container">
+    <div style="margin-top: 5%">
+        <div class="col-sm-3 col-md-4" *ngFor="let spec of species.results" >
+          <div class="thumbnail" highlight>
+            <div class="caption">
+              <h3>{{spec.name}}</h3>
+              <h5>Av. Height: {{spec.average_height}}</h5>
+              <h5>Classification: {{spec.classification}}</h5>
+              <h5>Life Span: {{spec.average_lifespan}}</h5>         
+              <h5>Language: {{spec.language}}</h5>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

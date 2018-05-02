@@ -1,0 +1,10 @@
+<div class="row" style="margin-top: 5%">
+  <h6><span style="font-style: italic">Click to view details</span></h6>
+  <div class="col-sm-4 col-md-3" *ngFor="let film of films.results">
+      <div class="thumbnail" highlight [routerLink]="film.url.split('/films/')[1]" style="cursor: pointer; background-color: lightgray">
+          <div class="caption">
+            <h3>{{film.title}}</h3>
+          </div>
+        </div>
+  </div>
+</div>

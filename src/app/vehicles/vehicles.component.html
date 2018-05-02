@@ -1,0 +1,14 @@
+<div class="container">
+    <div style="margin-top: 5%">
+        <div class="col-sm-3 col-md-4" *ngFor="let vehicle of vehicles.results" >
+          <div class="thumbnail" highlight>
+            <div class="caption">
+              <h3>{{vehicle.name}}</h3>
+              <h5>Model: {{vehicle.model}}</h5>
+              <h5>Passengers: {{vehicle.passengers}}</h5>
+              <p>Manufacturer: {{vehicle.manufacturer}}</p>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

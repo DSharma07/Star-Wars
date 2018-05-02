@@ -1,0 +1,14 @@
+<div class="container">
+    <div style="margin-top: 5%">
+        <div class="col-sm-3 col-md-4" *ngFor="let starship of starShips.results" >
+          <div class="thumbnail" highlight>
+            <div class="caption">
+              <h3>{{starship.name}}</h3>
+              <h5>Model: {{starship.model}}</h5>
+              <h5>Passengers: {{starship.passengers}}</h5>
+              <p>Manufacturer: {{starship.manufacturer}}</p>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
